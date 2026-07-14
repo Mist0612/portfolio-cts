@@ -19,7 +19,25 @@ fetch("data/projects.json")
                 <h4>${project.title}</h4>
 
                 <p>${project.description}</p>
+                <h3>Mục tiêu bài tập</h3>
 
+                <ul>
+                
+                ${project.objective.map(item => `
+                <li>${item}</li>
+                `).join("")}
+                
+                </ul>
+                
+                <h3>Tóm tắt quá trình thực hiện</h3>
+                
+                <ol>
+                
+                ${project.process.map(item => `
+                <li>${item}</li>
+                `).join("")}
+                
+                </ol>
                 <button class="project-btn"
                     onclick="showProject(${project.id})">
 
