@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Máy tính và thiết bị ngoại vi",
+        "subject": "Bài tập 1",
+        "image": "images/project1.jpg",
+        "description": "Tìm hiểu các thành phần của máy tính và thiết bị ngoại vi.",
+        "pdf": "files/project1.pdf"
+    },
+    {
+        "id": 2,
+        "title": "Khai thác dữ liệu và thông tin",
+        "subject": "Bài tập 2",
+        "image": "images/project2.jpg",
+        "description": "Tìm kiếm, đánh giá và sử dụng thông tin trên Internet.",
+        "pdf": "files/project2.pdf"
+    },
+    {
+        "id": 3,
+        "title": "Tổng quan về AI",
+        "subject": "Bài tập 3",
+        "image": "images/project3.jpg",
+        "description": "Giới thiệu các khái niệm cơ bản về trí tuệ nhân tạo.",
+        "pdf": "files/project3.pdf"
+    },
+    {
+        "id": 4,
+        "title": "Giao tiếp và hợp tác số",
+        "subject": "Bài tập 4",
+        "image": "images/project4.jpg",
+        "description": "Sử dụng các công cụ hỗ trợ làm việc nhóm.",
+        "pdf": "files/project4.pdf"
+    },
+    {
+        "id": 5,
+        "title": "Sáng tạo nội dung số",
+        "subject": "Bài tập 5",
+        "image": "images/project5.jpg",
+        "description": "Thiết kế nội dung số phục vụ học tập.",
+        "pdf": "files/project5.pdf"
+    },
+    {
+        "id": 6,
+        "title": "An toàn và liêm chính học thuật",
+        "subject": "Bài tập 6",
+        "image": "images/project6.jpg",
+        "description": "Các nguyên tắc an toàn thông tin và đạo đức học thuật.",
+        "pdf": "files/project6.pdf"
+    }
+]
