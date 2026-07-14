@@ -1,133 +1,141 @@
 [
     {
-        "id": 1,
-        "title": "Máy tính và thiết bị ngoại vi",
-        "subject": "Bài tập 1",
-        "image": "images/project1.jpg",
-        "description": "Tìm hiểu các thành phần của máy tính và thiết bị ngoại vi.",
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
-        ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
-        ],
-        
-        "pdf": "files/project1.pdf"
-    },
-    {
-        "id": 2,
-        "title": "Khai thác dữ liệu và thông tin",
-        "subject": "Bài tập 2",
-        "image": "images/project2.jpg",
-        "description": "Tìm kiếm, đánh giá và sử dụng thông tin trên Internet.",
+        "id":1,
+        "subject":"Bài tập 1",
+        "title":"Máy tính và thiết bị ngoại vi",
+        "image":"images/project1.jpg",
+        "description":"Tìm hiểu các thành phần của máy tính và thiết bị ngoại vi.",
 
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
+        "objective":[
+            "Bài tập nhằm giúp người học làm quen và thành thạo các thao tác cơ bản quản lý dữ liệu trên hệ điều hành Windows thông qua File Explorer."
         ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
+
+        "process":[
+            "Bước 1 & 2: Khởi động và truy cập vị trí lưu trữ: Mở trình quản lý tệp tin File Explorer (bằng tổ hợp Windows + E hoặc biểu tượng trên thanh tác vụ), truy cập vào This PC rồi chọn một ổ đĩa không chứa hệ điều hành (như ổ D:, E:) hoặc thư mục Documents để làm việc.",
+            "Bước 3 & 4: Tạo và làm việc với thư mục gốc: Tạo một thư mục mới theo cấu trúc cú pháp ThucHanh hotensinhvien (ví dụ thực tế trong bài là ThucHanh_VuThiNgocMinh), sau đó truy cập vào bên trong thư mục này.",
+            "Bước 5 & 6: Tạo và đổi tên tập tin: Khởi tạo một tập tin văn bản mới mang tên GhiChu.txt, sau đó sử dụng tính năng Rename để đổi tên tệp thành GhiChuQuanTrong.txt.",
+            "Bước 7 & 8: Tạo thư mục con và Sao chép dữ liệu: Tạo thêm một thư mục con tên là TaiLieu, tiến hành sao chép (Copy hoặc Ctrl + C) tệp GhiChuQuanTrong.txt từ thư mục gốc và dán (Paste hoặc Ctrl + V) vào thư mục TaiLieu vừa tạo.",
+            "Bước 9: Di chuyển dữ liệu: Tạo thêm một tệp mới mang tên DiChuyen.txt tại thư mục gốc, dùng lệnh cắt (Cut hoặc Ctrl + X) rồi dán vào thư mục TaiLieu để chuyển hẳn tệp sang vị trí mới.",
+            "Bước 10 & 11: Thực hành xóa dữ liệu: Trong thư mục TaiLieu, thực hiện xóa tệp GhiChuQuanTrong.txt bằng lệnh Delete để đưa vào Thùng rác. Kế tiếp, chọn tệp DiChuyen.txt và nhấn tổ hợp phím Shift + Delete để xóa vĩnh viễn tệp ra khỏi máy tính sau khi xác nhận cảnh báo.",
+            "Bước 12: Khôi phục dữ liệu: Truy cập vào biểu tượng Recycle Bin ngoài màn hình nền (Desktop), tìm tệp GhiChuQuanTrong.txt đã xóa ở bước 10, nhấp chuột phải chọn Restore để đưa tệp quay lại thư mục gốc ban đầu."
         ],
-        
-        "pdf": "files/project2.pdf"
+
+        "pdf":"files/project1.pdf"
     },
+
     {
-        "id": 3,
-        "title": "Tổng quan về AI",
-        "image": "images/ai.jpg",
-    
-        "description": "Giới thiệu các khái niệm cơ bản về trí tuệ nhân tạo.",
-    
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
+        "id":2,
+        "subject":"Bài tập 2",
+        "title":"Khai thác dữ liệu và thông tin",
+        "image":"images/project2.jpg",
+        "description":"Tìm kiếm, đánh giá và sử dụng thông tin trên Internet.",
+
+        "objective":[
+            "Phát triển năng lực tìm kiếm, phân loại và đánh giá độ tin cậy của các nguồn thông tin học thuật (CSDL trường, tạp chí, sách chuyên khảo, nguồn mở) dựa trên các tiêu chí khoa học (tác giả, cơ quan xuất bản, phương pháp, tính cập nhật)."
         ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
+
+        "process":[
+            "Bước 1 (Định hướng): Chọn chủ đề kính ngữ hiện đại (Baito-keigo, Manual-keigo) và giới hạn tài liệu cập nhật giai đoạn 2015 – 2026.",
+            "Bước 2 (Tìm kiếm): Tra cứu đa ngôn ngữ (Nhật - Anh) trên các cơ sở dữ liệu uy tín như CiNii, Google Scholar và Tạp chí Khoa học VNU.",
+            "Bước 3 (Tổng hợp): Thu thập 12 nguồn tài liệu (vượt chỉ tiêu 10), bao gồm 7 bài báo khoa học, sách chuyên khảo và báo cáo chính phủ.",
+            "Bước 4 (Đánh giá): Phân tích phương pháp nghiên cứu, xếp hạng độ tin cậy (thang điểm 5) và đưa ra nhận xét phản biện về sự tương quan giữa các nguồn.",
+            "Bước 5 (Chuẩn hóa): Trình bày danh mục tài liệu tham khảo đồng bộ theo định dạng Harvard Style."
         ],
-    
+
+        "pdf":"files/project2.pdf"
+    },
+
+    {
+        "id":3,
+        "subject":"Bài tập 3",
+        "title":"Tổng quan về AI",
+        "image":"images/project3.jpg",
+        "description":"Giới thiệu các khái niệm cơ bản về trí tuệ nhân tạo.",
+
+        "objective":[
+            "Phát triển kỹ năng Prompt Engineering: Học cách viết và tối ưu hóa các câu lệnh (prompt) hiệu quả nhằm khai thác tối đa năng lực của các mô hình ngôn ngữ lớn (LLM) như ChatGPT phục vụ cho mục đích học tập.",
+            "Ứng dụng thực tế vào chuyên ngành: Thử nghiệm chuyên sâu khả năng hỗ trợ của AI đối với các tác vụ học tập đặc thù của sinh viên ngành Ngôn ngữ Nhật Bản.",
+            "Đánh giá và Đúc kết kinh nghiệm: Phân tích định lượng/định tính sự khác biệt giữa các cấp độ prompt, từ đó tổng hợp thành các nguyên tắc và mẹo cốt lõi để làm chủ công cụ AI."
+        ],
+
+        "process":[
+            "Lựa chọn tác vụ: Xác định 3 tác vụ học tập thiết thực đối với sinh viên Ngôn ngữ Nhật: Tóm tắt tài liệu, giải thích khái niệm và tạo bộ câu hỏi ôn tập ngữ pháp JLPT N5.",
+            "Thiết kế và phân cấp Prompt: Xây dựng câu lệnh theo 3 cấp độ tăng dần từ Cơ bản (lệnh chung), Cải tiến (thêm tiêu chí) đến Nâng cao (gán vai trò, bối cảnh chuyên ngành và cung cấp ví dụ).",
+            "Thử nghiệm và thu thập: Thực hành chạy các prompt trên ChatGPT, thu thập và chụp lại minh chứng kết quả phản hồi của từng cấp độ.",
+            "Phân tích và đúc kết: So sánh hiệu quả giữa các cấp độ, chứng minh ưu thế của prompt nâng cao và tổng hợp thành công thức viết prompt tối ưu để hoàn thiện báo cáo."
+        ],
+
         "pdf":"files/bai3.pdf"
-    }
-    {
-        "id": 4,
-        "title": "Giao tiếp và hợp tác số",
-        "subject": "Bài tập 4",
-        "image": "images/project4.jpg",
-        "description": "Sử dụng các công cụ hỗ trợ làm việc nhóm.",
-
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
-        ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
-        ],
-        
-        "pdf": "files/project4.pdf"
     },
-    {
-        "id": 5,
-        "title": "Sáng tạo nội dung số",
-        "subject": "Bài tập 5",
-        "image": "images/project5.jpg",
-        "description": "Thiết kế nội dung số phục vụ học tập.",
 
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
+    {
+        "id":4,
+        "subject":"Bài tập 4",
+        "title":"Giao tiếp và hợp tác số",
+        "image":"images/project4.jpg",
+        "description":"Sử dụng các công cụ hỗ trợ làm việc nhóm.",
+
+        "objective":[
+            "Thành thạo công cụ hợp tác trực tuyến: Làm quen, thiết lập và sử dụng tối thiểu 3 công cụ thuộc các nhóm giải pháp quản lý, soạn thảo, lưu trữ và giao tiếp (Trello, Microsoft Teams, Google Docs và Google Drive).",
+            "Chứng minh năng lực quản lý và điều phối cá nhân: Thể hiện rõ vai trò chủ động của bản thân trong một dự án nhóm thông qua việc tự quản lý tiến độ, tương tác tích cực, tổ chức dữ liệu khoa học và giải quyết các xung đột phát sinh khi làm việc từ xa.",
+            "Xây dựng minh chứng thực tế: Ghi lại toàn bộ lịch sử thao tác (hình ảnh màn hình hiển thị rõ tên tài khoản, lịch sử chỉnh sửa, sơ đồ thư mục) để chứng minh sự đóng góp thực chất của cá nhân vào kết quả chung."
         ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
+
+        "process":[
+            "Thiết lập không gian số: Chủ động khởi tạo và kết nối hệ thống công cụ làm việc chung cho nhóm gồm Trello, Teams, Docs và Drive.",
+            "Điều phối & Quản lý tiến độ: Tạo bảng Trello để tự kiểm soát các đầu việc cá nhân; lên khung bố cục bài báo cáo trên Teams để thúc đẩy các thành viên nhận việc và chạy deadline đúng hạn.",
+            "Biên soạn & Kiểm soát chất lượng: Trực tiếp viết nội dung được phân công trên Google Docs, đồng thời rà soát định dạng, sửa lỗi chính tả và theo dõi lịch sử chỉnh sửa tài liệu.",
+            "Tổ chức lưu trữ khoa học: Xây dựng cấu trúc thư mục ngăn nắp trên Drive, phân quyền truy cập hợp lý để tối ưu hóa việc chia sẻ tài nguyên.",
+            "Giải quyết xung đột: Xử lý tình trạng viết đè/xóa nhầm dữ liệu trên Google Docs bằng cách chuyển nhóm sang quyền “Người nhận xét”."
         ],
-        
-        "pdf": "files/project5.pdf"
+
+        "pdf":"files/project4.pdf"
     },
-    {
-        "id": 6,
-        "title": "An toàn và liêm chính học thuật",
-        "subject": "Bài tập 6",
-        "image": "images/project6.jpg",
-        "description": "Các nguyên tắc an toàn thông tin và đạo đức học thuật.",
 
-        "objective": [
-            "Phát triển kỹ năng Prompt Engineering.",
-            "Ứng dụng AI vào chuyên ngành.",
-            "Đánh giá hiệu quả của các loại Prompt."
+    {
+        "id":5,
+        "subject":"Bài tập 5",
+        "title":"Sáng tạo nội dung số",
+        "image":"images/project5.jpg",
+        "description":"Thiết kế nội dung số phục vụ học tập.",
+
+        "objective":[
+            "Giải quyết xung đột: Xử lý tình trạng viết đè/xóa nhầm dữ liệu trên Google Docs bằng cách chuyển nhóm sang quyền “Người nhận xét”.",
+            "Làm chủ quy trình tích hợp: Biết cách đặt prompt, đánh giá, so sánh và kết hợp đầu ra của AI với tư duy đóng góp sáng tạo của cá nhân để hoàn thiện một sản phẩm hoàn chỉnh.",
+            "Xuất bản sản phẩm.Phát triển tư duy phản biện và đạo đức AI: Phân tích được ưu/nhược điểm của AI, sự thay đổi trong quy trình làm việc và nhận thức rõ các vấn đề đạo đức, bản quyền khi sử dụng AI."
         ],
-    
-        "process": [
-            "Lựa chọn tác vụ.",
-            "Thiết kế Prompt.",
-            "Thực nghiệm với ChatGPT.",
-            "Đánh giá kết quả."
+
+        "process":[
+            "Xây dựng nội dung văn bản (với ChatGPT). Hành động: Sử dụng prompt yêu cầu ChatGPT viết bài giới thiệu ~300 từ về trà đạo Nhật Bản bằng ngôn ngữ đơn giản cho sinh viên quốc tế. Đóng góp cá nhân: Tiếp nhận kết quả, chủ động rút gọn còn ~200 từ, hiệu đính văn phong phù hợp và bổ sung các thuật ngữ chuyên ngành tiếng Nhật như 茶道 (Sadō), 和敬清寂 (Wa-Kei-Sei-Jaku).",
+            "Tạo hình ảnh minh họa (với DALL-E). Hành động: Chạy prompt tiếng Anh để DALL-E tạo bối cảnh trà thất truyền thống với chiếu tatami, kimono và dụng cụ pha trà. Đóng góp cá nhân: Lựa chọn bức ảnh tối ưu nhất, tiến hành hậu kỳ cắt bỏ chi tiết thừa, chỉnh độ sáng và thêm chú thích tiếng Việt trực quan.",
+            "Thiết kế cấu trúc Infographic (với Canva AI). Hành động: Dùng prompt để Canva AI đề xuất các mẫu bố cục dọc cùng bảng màu truyền thống Nhật Bản phù hợp cho sinh viên. Đóng góp cá nhân: Sắp xếp lại thứ tự nội dung, thay đổi font chữ, đồng bộ hóa màu sắc tổng thể và chèn thêm logo trường (ULIS) để tăng tính chính thống cho sản phẩm.",
+            "Đánh giá, So sánh và Hoàn thiện. Tích hợp sản phẩm: Tổng hợp dữ liệu thành sản phẩm hoàn chỉnh với tỷ lệ đóng góp cân bằng (50% AI hỗ trợ nền tảng và 50% cá nhân tinh chỉnh, kiểm chứng). Đúc kết báo cáo: Lập bảng so sánh chi tiết ưu/nhược điểm của 3 công cụ; phân tích toàn diện về vai trò, sự thay đổi quy trình sáng tạo cũng như trách nhiệm đạo đức khi ứng dụng AI."
         ],
-        
-        "pdf": "files/project6.pdf"
+
+        "pdf":"files/project5.pdf"
+    },
+
+    {
+        "id":6,
+        "subject":"Bài tập 6",
+        "title":"An toàn và liêm chính học thuật",
+        "image":"images/project6.jpg",
+        "description":"Các nguyên tắc an toàn thông tin và đạo đức học thuật.",
+
+        "objective":[
+            "Nhận thức và trách nhiệm: Phát triển kỹ năng sử dụng trí tuệ nhân tạo (AI) một cách có trách nhiệm, minh bạch và đúng chuẩn mực đạo đức trong học tập và nghiên cứu.",
+            "Làm chủ công cụ: Học cách tích hợp AI vào một nhiệm vụ học tập cụ thể thông qua việc đặt prompt, đánh giá, chủ động chỉnh sửa đầu ra để phù hợp với năng lực cá nhân thay vì phụ thuộc.",
+            "Tư duy phản biện và Đúc kết: Khảo sát chính sách thực tế của nhà trường, phân tích ranh giới đạo đức học thuật và cụ thể hóa thành bộ nguyên tắc ứng xử cùng sản phẩm infographic trực quan."
+        ],
+
+        "process":[
+            "Bước 1: Nghiên cứu chính sách nhà trường Khảo sát quy định chuyển đổi số và đạo đức học thuật tại Trường Đại học Ngoại ngữ – ĐHQGHN (ULIS). Đồng thời, lập bảng so sánh với các trường đại học tại Nhật Bản (Tokyo, Waseda) để thấy sự khác biệt về cách tiếp cận, trích dẫn và phương pháp đánh giá.",
+            "Bước 2: Thực hiện nhiệm vụ học tập bằng AI Lựa chọn nhiệm vụ chuẩn bị bài nói thuyết trình (Roleplay) kết hợp dịch thuật về 'Văn hóa cúi chào (Ojigi)'. Thử nghiệm 2 Prompt với ChatGPT để lên bố cục và sửa lỗi câu. Sau đó, chủ động lược bỏ các ngữ pháp quá nâng cao (như thể bị động) để chuyển về các mẫu câu quen thuộc trong giáo trình Minna no Nihongo, đảm bảo bài nói tự nhiên và đúng năng lực.",
+            "Bước 3: Tuyên bố minh bạch Viết bản khai báo tuyên bố rõ ràng ngày sử dụng công cụ (ChatGPT-4o vào 29/05/2026) cùng phạm vi hỗ trợ (gợi ý dàn ý, tra từ vựng) nhằm đảm bảo tính trung thực.",
+            "Bước 4: Phân tích đạo đức và Xây dựng nguyên tắc Biện luận về 3 vấn đề đạo đức cốt lõi: Ranh giới giữa hỗ trợ - gian lận, Quyền sở hữu trí tuệ, và Tác động đến tư duy phản biện. Từ đó, tự thiết lập Bộ 7 nguyên tắc cá nhân để định hình hành vi sử dụng công cụ một cách đúng đắn.",
+            "Bước 5: Trực quan hóa bằng Infographic Thiết kế một sản phẩm Infographic hoàn chỉnh, hệ thống hóa lại toàn bộ kiến thức bao gồm: Định nghĩa AI, danh sách Nên/Không nên làm, 3 vấn đề đạo đức và 7 nguyên tắc cốt lõi đã xây dựng."
+        ],
+
+        "pdf":"files/project6.pdf"
     }
 ]
