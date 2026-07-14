@@ -708,41 +708,38 @@ font-size:16px;
 }
 
 .modal{
-
     display:none;
 
     position:fixed;
 
+    left:0;
     top:0;
 
-    left:0;
-
     width:100%;
-
     height:100%;
 
     background:rgba(0,0,0,.6);
 
     justify-content:center;
-
     align-items:center;
 
+    z-index:9999;
 }
 
+
 .modal-content{
+    background:#fff;
+    width:80%;
+    max-width:900px;
 
-    background:white;
+    max-height:90vh;      /* Chiều cao tối đa */
+    overflow-y:auto;      /* Cho phép cuộn */
 
-    width:700px;
-
-    max-width:90%;
-
+    padding:35px;
     border-radius:15px;
-
-    padding:30px;
-
     position:relative;
 
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
 #close-modal{
@@ -821,4 +818,37 @@ font-size:16px;
 
     margin-bottom:15px;
 
+}
+
+.modal-image{
+    width:100%;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+.modal-description{
+    font-size:17px;
+    line-height:1.8;
+}
+
+#modal-body h3{
+    margin-top:25px;
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+#modal-body ul,
+#modal-body ol{
+    margin-left:25px;
+    line-height:1.8;
+}
+
+#modal-body li{
+    margin-bottom:10px;
+}
+
+#modal-body hr{
+    border:none;
+    border-top:1px solid #ddd;
+    margin:25px 0;
 }
