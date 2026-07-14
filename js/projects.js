@@ -1,47 +1,55 @@
 const list = document.getElementById("project-list");
 
 fetch("data/projects.json")
-    .then(res => res.json())
-    .then(data => {
+.then(res => res.json())
+.then(data => {
 
-        data.forEach(project => {
+    window.projects = data;
 
-            list.innerHTML += `
+    data.forEach(project => {
 
-            <div class="project-card">
+        list.innerHTML += `
 
-                <img src="${project.image}" alt="${project.title}">
+        <div class="project-card">
 
-                <div class="project-content">
+            <img src="${project.image}" alt="${project.title}">
 
-                    <h3>${project.subject}</h3>
+            <div class="project-content">
 
-                    <h4>${project.title}</h4>
+                <h3>${project.subject}</h3>
 
-                    <p>${project.description}</p>
+                <h4>${project.title}</h4>
 
-                    <button class="project-btn"
-                        onclick="showProject(${project.id})">
+                <p>${project.description}</p>
 
-                        Xem chi tiết
+                <button
+                    class="project-btn"
+                    onclick="showProject(${project.id})">
 
-                    </button>
+                    Xem chi tiết
 
-                </div>
+                </button>
 
             </div>
 
-            `;
+        </div>
 
-        });
-
-        window.projects = data;
+        `;
 
     });
 
-function showProject(id) {
+})
+.catch(error => {
 
-    const project = window.projects.find(p => p.id === id);
+    console.log(error);
+
+    list.innerHTML = "<h2>Không thể đọc dữ liệu projects.json</h2>";
+
+});
+
+function showProject(id){
+
+    const project = window.projects.find(item => item.id === id);
 
     document.getElementById("modal-body").innerHTML = `
 
@@ -50,7 +58,9 @@ function showProject(id) {
         <img src="${project.image}" class="modal-image">
 
         <p class="modal-description">
+
             ${project.description}
+
         </p>
 
         <hr>
@@ -59,7 +69,7 @@ function showProject(id) {
 
         <ul>
 
-            ${project.objective.map(item => `
+            ${(project.objective || []).map(item => `
                 <li>${item}</li>
             `).join("")}
 
@@ -71,7 +81,7 @@ function showProject(id) {
 
         <ol>
 
-            ${project.process.map(item => `
+            ${(project.process || []).map(item => `
                 <li>${item}</li>
             `).join("")}
 
@@ -79,11 +89,12 @@ function showProject(id) {
 
         <hr>
 
-        <a class="project-btn"
-           href="${project.pdf}"
-           target="_blank">
+        <a
+            class="project-btn"
+            href="${project.pdf}"
+            target="_blank">
 
-            📄 Xem PDF
+            📄 Xem file PDF
 
         </a>
 
@@ -93,15 +104,15 @@ function showProject(id) {
 
 }
 
-document.getElementById("close-modal").onclick = () => {
+document.getElementById("close-modal").onclick = function(){
 
     document.getElementById("modal").style.display = "none";
 
 }
 
-window.onclick = (e) => {
+window.onclick = function(e){
 
-    if (e.target.id === "modal") {
+    if(e.target.id === "modal"){
 
         document.getElementById("modal").style.display = "none";
 
